@@ -21,6 +21,7 @@
         "@babel/runtime": "^7.10.1",
         "babel-plugin-auto-import": "^1.0.5",
         "eslint-config-standard-jsx": "^8.1.0",
+        "iu": "0.0.0",
         "loglevel": "^1.6.8",
         "parcel": "^1.12.4",
         "parcel-plugin-less-js-enabled": "^1.0.2",

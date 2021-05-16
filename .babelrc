@@ -75,7 +75,8 @@
                         "path": "react",
                         "members": [
                             "useState",
-                            "useEffect"
+                            "useEffect",
+                            "useRef"
                         ]
                     },
                     {
