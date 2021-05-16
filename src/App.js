@@ -5,12 +5,11 @@ import LoadingIcon from "./ui/components/loadingIcon";
 
 import { compareValues } from "./utils/compareValues";
 
+// API must be in .env
+const API_URL = "https://e6di35qzm7.execute-api.us-west-2.amazonaws.com";
+
 const fetchOffersList = parameters => {
-    return fetch(
-        `https://e6di35qzm7.execute-api.us-west-2.amazonaws.com/latest/directory?${
-            parameters || ""
-        }`,
-    )
+    return fetch(`${API_URL}/latest/directory?${parameters || ""}`)
         .then(res => res.json())
         .then(({ data }) => data);
 };
