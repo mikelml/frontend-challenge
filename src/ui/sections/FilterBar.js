@@ -66,22 +66,24 @@ export default function FilterBar({
     };
 
     return (
-        <div class="shadow flex pt-1 pb-1 pl-2 pr-2">
+        <div class="filter-bar shadow pt-1 pb-1 pl-2 pr-2">
             <SearchField
                 handleKeyDown={handleKeyDown}
                 submitSearch={submitSearch}
                 onSetValue={onSetValue}
                 value={value}
             />
-            {orderButtons.map(button => (
-                <OrderButton
-                    order={order}
-                    filter={filter}
-                    onSetOrder={onSetOrder}
-                    filter_key={button.filter_key}
-                    child={button.content}
-                />
-            ))}
+            <span>
+                {orderButtons.map(button => (
+                    <OrderButton
+                        order={order}
+                        filter={filter}
+                        onSetOrder={onSetOrder}
+                        filter_key={button.filter_key}
+                        child={button.content}
+                    />
+                ))}
+            </span>
         </div>
     );
 }

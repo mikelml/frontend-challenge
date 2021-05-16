@@ -8,6 +8,22 @@
 	animation-iteration-count: infinite;
 	animation-direction: reverse;
 }
+.filter-bar {
+	display: flex;
+	align-items: center;
+}
+.filter-bar span{
+	display: flex;
+	align-items: center;
+}
+
+@media(max-width: 640px) {
+	.filter-bar {
+		display: flex;
+		align-items: start;
+		flex-direction: column;
+	}
+}
 
 .height-70vh {
 	height: 70vh;
