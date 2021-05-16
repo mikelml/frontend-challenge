@@ -115,3 +115,9 @@ Please read the following instructions carefully and if you have any questions p
 ## Any questions?
 
 -   John Falcón, CTO @Reworth [john.f@reworth.co]
+
+## Conclutions
+
+-   Very funny to make that excersice and a good oportunity to explore new way to make software.
+-   I explore the opportunity to use new technologies as tailwind (I was used to using my own styles and / or material components)
+-   I decide to use cards scroll loader as a beatiful way to show the discount infomation but at the same time provide a search bar to keep the performance looking a discount and loading data
