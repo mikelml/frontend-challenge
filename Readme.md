@@ -121,3 +121,5 @@ Please read the following instructions carefully and if you have any questions p
 -   Very funny to make that excersice and a good oportunity to explore new way to make software.
 -   I explore the opportunity to use new technologies as tailwind (I was used to using my own styles and / or material components)
 -   I decide to use cards scroll loader as a beatiful way to show the discount infomation but at the same time provide a search bar to keep the performance looking a discount and loading data
+-   I hope will have more oportunities in the future
+-   Web url of the site https://pedantic-roentgen-71d501.netlify.app/
