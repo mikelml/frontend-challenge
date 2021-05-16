@@ -5,7 +5,7 @@ export default function SearchField({
     submitSearch,
 }) {
     return (
-        <div className="flex">
+        <div className="search-field flex">
             <input
                 class="w-auto rounded p-2"
                 onKeyDown={handleKeyDown}
